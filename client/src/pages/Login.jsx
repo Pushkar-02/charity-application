@@ -41,12 +41,12 @@ const Login = () => {
                     {error && <span className="error-message">{error}</span>}
 
                     <div className="form-group">
-                        <label htmlFor="Email">Email:</label>
+                        <label style={{fontSize:'18px'}} htmlFor="Email">Email:</label>
                         <input type="email" name="Email" id="Email" placeholder="Enter Email" value={creadentials.Email} tabIndex={1} onChange={onchange} required/>
                     </div>
 
                     <div className="form-group">
-                        <label htmlFor="password">
+                        <label style={{fontSize:'18px'}} htmlFor="password">
                             Password:{" "}
                             {/* <Link
                             to="/forgotpassword"
