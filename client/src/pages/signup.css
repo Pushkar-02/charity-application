@@ -1,0 +1,10 @@
+
+.PAN
+{
+    text-transform: uppercase;
+}
+.error
+{
+    color: Red;
+    visibility: hidden;
+}
