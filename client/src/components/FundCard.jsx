@@ -36,8 +36,8 @@ const FundCard = ({ owner, title, description, target, deadline, amountCollected
           <div className="w-[30px] h-[30px] rounded-full flex justify-center items-center bg-[#13131a]">
             {/* <img src={thirdweb} alt="user" className="w-1/2 h-1/2 object-contain"/> */}
           </div>
-          <button className="rounded-md px-2 py-1 bg-cyan-600 text-white mx-5 my-2">
-            {state ? "Completed🎉" : "Contribute💓"}
+          <button style={{fontSize:'14px'}} className="rounded-md px-2 py-1 bg-cyan-600 text-white mx-5 my-2">
+            {state ? "Completed🎉" : "Contribute💰"}
           </button>
           {/* <p className="flex-1 font-epilogue font-normal text-[12px] text-[#808191] truncate">by <span className="text-[#b2b3bd]">{owner}</span></p> */}
         </div>
